@@ -7,7 +7,7 @@ import org.javacord.api.entity.message.MessageActivityType;
 
 public class Main {
     public static void main(String[] args){
-        String token = "NjY5MzUzOTc4MzYxODA2OTAx.XinfZQ.7ifzTtAXVPu9ZKt3V01rUvEu5gc";
+        String token = "NjY5MzUzOTc4MzYxODA2OTAx.XinfZQ.7ifzTtAXVPu9ZKt3V01rUvEu5gc";//Old token
 
         DiscordApi api = new DiscordApiBuilder().setToken(token).login().join();
 
